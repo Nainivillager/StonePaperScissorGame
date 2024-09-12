@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  padding: 18px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+}
+img,
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 175px;
+  border-radius: 50%;
+  margin: 25px 30px;
+  object-fit: cover;
+}
+.choice {
+  transition: opacity, box-shadow 0.2s ease-out 10ms;
+}
+.choice:hover {
+  opacity: 90%;
+  background-color: #8adf8d;
+  box-shadow: 0 0 15px #4c954e;
+  cursor: pointer;
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  height: 160px;
+  width: 180px;
+  background-color: #8dbe8f;
+  font-size: 2rem;
+  margin: 21px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#compScore,
+#userScore {
+  font-size: 4rem;
+}
+
+#msg {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#msg {
+  text-align: center;
+  font-size: 2rem;
+  background-color: brown;
+  line-height: 3rem;
+  border-radius: 2%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Adjust this value to ensure it's behind or in front of other elements as needed */
+}
