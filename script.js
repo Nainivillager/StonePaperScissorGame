@@ -36,7 +36,6 @@ const showResult = (userwon, userChoice, compChoice) => {
 };
 
 const playGame = (userChoice) => {
-  // Computer Choice
   let compChoice = genCompChoice();
 
   if (compChoice == userChoice) {
@@ -62,9 +61,7 @@ choices.forEach((choice) => {
 });
 
 //animation
-/*--------------------
-Vars
---------------------*/
+// Variables
 const deg = (a) => (Math.PI / 180) * a;
 const rand = (v1, v2) => Math.floor(v1 + Math.random() * (v2 - v1));
 const opt = {
@@ -96,9 +93,7 @@ document.body.addEventListener("click", () => {
   }
 });
 
-/*--------------------
-Particle
---------------------*/
+// Particle
 class Particle {
   constructor(x, y) {
     this.x = x;
@@ -190,9 +185,7 @@ class Particle {
   }
 }
 
-/*--------------------
-Setup
---------------------*/
+// Setup
 function setup() {
   createCanvas(windowWidth, windowHeight);
   for (let i = 0; i < opt.particles; i++) {
@@ -201,9 +194,7 @@ function setup() {
   strokeWeight(opt.strokeWeight);
 }
 
-/*--------------------
-Draw
---------------------*/
+// Draw
 function draw() {
   time++;
   background(0, 100 - opt.tail);
@@ -214,11 +205,7 @@ function draw() {
   }
 }
 
-/*--------------------
-Resize
---------------------*/
+// Resize
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
-
-// credit for the background animation to
