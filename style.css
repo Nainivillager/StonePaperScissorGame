@@ -50,11 +50,11 @@ img,
   align-items: center;
 }
 .score {
-  height: 12vw;
-  width: 15vw;
+  height: 11vw;
+  width: 14vw;
   background-color: #8dbe8f;
   font-size: 3vw;
-  margin: 4vw;
+  margin: 3vw 2vw 0 2vw;
   text-align: center;
   border-radius: 50%;
   display: flex;
@@ -65,23 +65,42 @@ img,
 
 #compScore,
 #userScore {
-  font-size: 6vw;
+  font-size: 7vh;
 }
 
 #msg {
   margin-top: 10px;
   display: flex;
   justify-content: center;
-}
-#msg {
   text-align: center;
   font-size: 2rem;
   background-color: brown;
   line-height: 3rem;
   border-radius: 2%;
   padding: 10px;
+  color: white;
 }
 
+#scoreresetbtn {
+  background-color: brown;
+  border-radius: 4px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  padding: 1vh;
+  margin: 1vw;
+  outline: none;
+  cursor: pointer;
+}
+#scoreresetbtn:hover {
+  color: white;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Media Queries for smaller screens */
 @media (max-width: 600px) {
   #header {

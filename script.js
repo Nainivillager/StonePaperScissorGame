@@ -6,6 +6,16 @@ const choices = document.querySelectorAll(".choice");
 let userScorem = document.querySelector("#userScore");
 let compScorem = document.querySelector("#compScore");
 
+const reset = document.querySelector("#scoreresetbtn");
+
+reset.addEventListener("click", () => {
+  console.log("ha clik hua");
+  userScorem.innerText = 0;
+  userScore = 0;
+  compScorem.innerText = 0;
+  compScore = 0;
+});
+
 const genCompChoice = () => {
   const options = ["rock", "paper", "scissor"];
   let randIndx = Math.floor(Math.random() * 3);
