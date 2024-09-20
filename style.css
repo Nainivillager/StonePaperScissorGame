@@ -103,7 +103,40 @@ img,
   justify-content: center;
   align-items: center;
 }
-/* Media Queries for smaller screens */
+/* Media Queries for 900px screens */
+@media (max-width: 900px) {
+  #header {
+    font-size: 5vw;
+  }
+
+  .choices {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  img,
+  .choice {
+    height: 20vw;
+    width: 20vw;
+    margin: 10px;
+  }
+
+  .score {
+    height: 20vw;
+    width: 20vw;
+  }
+
+  #compScore,
+  #userScore {
+    font-size: 8vw;
+  }
+
+  #msg {
+    font-size: 5vw;
+  }
+}
+
+/* Media Queries for 600 screens */
 @media (max-width: 600px) {
   #header {
     font-size: 6vw;
@@ -130,6 +163,40 @@ img,
     font-size: 6vw;
   }
 }
+
+/* Media Queries for midrange phone screens (approx. 400px) */
+@media (max-width: 400px) {
+  #header {
+    font-size: 7vw;
+  }
+
+  .choices {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img,
+  .choice {
+    height: 30vw;
+    width: 30vw;
+    margin: 5px;
+  }
+
+  .score {
+    height: 30vw;
+    width: 30vw;
+  }
+
+  #compScore,
+  #userScore {
+    font-size: 12vw;
+  }
+
+  #msg {
+    font-size: 7vw;
+  }
+}
+
 canvas {
   position: absolute;
   top: 0;
