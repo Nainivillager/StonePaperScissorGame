@@ -7,8 +7,8 @@ The scores are also updated on every move.
 > This is an unlimited play game. Play until infinity.
 
 This project is completely made in *Html, Css & JavaScript*.
-> The structure of the document is usually composed by Html.
-> Css is used for beautifying the structure and to provide resposiveness according to the different sizes.
+ The structure of the document is usually composed by Html.
+ Css is used for beautifying the structure and to provide resposiveness according to the different sizes.
 > The JavaScript Concepts Used in this are:
 >> DOM (Document Object Model) --> The Dom is an interface that allows programs and events to dynamically access and update the content, style and sturcutre of the document.
 >> Event Listners --> This allows us to create custom responses to events like mouse clicks, keyboard clicks, and window resizing,
