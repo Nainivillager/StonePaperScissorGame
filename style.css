@@ -33,17 +33,19 @@ img,
   border-radius: 50%;
   margin: 25px 30px;
   object-fit: cover;
+  transition: transform 0.2s ease;
 }
 .choice {
-  transition: opacity, box-shadow 0.2s ease-out 10ms;
+  position: relative;
 }
 .choice:hover {
-  opacity: 90%;
-  background-color: #8adf8d;
-  box-shadow: 0 0 15px #4c954e;
+  transform: scale(1.05);
   cursor: pointer;
 }
 
+.choice:active {
+  transform: scale(0.95);
+}
 .scoreBoard {
   display: flex;
   justify-content: center;

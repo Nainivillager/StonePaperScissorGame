@@ -9,7 +9,6 @@ let compScorem = document.querySelector("#compScore");
 const reset = document.querySelector("#scoreresetbtn");
 
 reset.addEventListener("click", () => {
-  console.log("ha clik hua");
   userScorem.innerText = 0;
   userScore = 0;
   compScorem.innerText = 0;
