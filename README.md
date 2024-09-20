@@ -15,5 +15,5 @@ This project is completely made in *Html, Css & JavaScript*.
 >> Callbacks with annonymous functions --> Callbacks  functions are those which can be passed as an argument to another functions,
 >> loops and Math properties like floor, random, etc.
 // Credits 
-> *Shradha khapra* from youtube for js.
-> Background animation *Fabio Ottaviani*.
+*Shradha khapra* from youtube for js.
+ Background animation *Fabio Ottaviani*.
