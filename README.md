@@ -15,9 +15,13 @@ This project is completely made in *Html, Css & JavaScript*.
  Css is used for beautifying the structure and to provide resposiveness according to the different sizes.
  
 > The JavaScript Concepts Used in this are:
+
 >> DOM (Document Object Model) --> The Dom is an interface that allows programs and events to dynamically access and update the content, style and sturcutre of the document.
+
 >> Event Listners --> This allows us to create custom responses to events like mouse clicks, keyboard clicks, and window resizing,
+
 >> Callbacks with annonymous functions --> Callbacks  functions are those which can be passed as an argument to another functions,
+
 >> loops and Math properties like floor, random, etc.
 
 Credits -- 
